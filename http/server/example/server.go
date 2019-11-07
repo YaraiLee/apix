@@ -7,10 +7,10 @@ package main
 
 import (
 	"fmt"
-	"net/http"
 	"github.com/TechCatsLab/apix/http/server"
 	"github.com/TechCatsLab/apix/http/server/middleware"
 	"github.com/dgrijalva/jwt-go"
+	"net/http"
 )
 
 const privateTokenKey = "your_token_key"
